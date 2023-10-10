@@ -1,0 +1,25 @@
+body {
+    background-image: url(santa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.h1 {
+    text-align: center;
+    color: darkred;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: typing 10s steps(12) 2s forwards;
+}
