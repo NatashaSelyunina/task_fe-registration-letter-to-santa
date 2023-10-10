@@ -7,7 +7,45 @@
     <title>Подарок от Санты 😎😎😎</title>
 </head>
 <body>
-   <h1 class="h1" id="h1">Письмо Санте</h1> 
-   <p class="p" id="p">Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество 😉</p>
+    <h1 class="h1" id="h1">Письмо Санте</h1> 
+    <div class="divForP">
+        <p class="p" id="p">
+         <span class="spanForP">Д</span>орогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество 😉</p>
+    </div>
+   <form id="formSanta">
+    <div class="registrationDiv" id="registrationDiv">
+        <div class="formRegistration" id="formRegistration">
+            <div>
+                <label for="">
+                    Логин<br>
+                    <input type="text">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    Пароль<br>
+                    <input type="text">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    Имя<br>
+                    <input type="text">
+                </label>
+            </div>
+        </div>
+        <div>
+            Укажите свой пол:
+            <div>
+                <input id="woman" type="radio" name="woman" value="девочка">
+                <label for="woman">девочка</label>
+            </div>
+            <div>
+                <input id="man" type="radio" name="man" value="мальчик">
+                <label for="man">мальчик</label>
+            </div>
+        </div>
+    </div>
+   </form>
 </body>
 </html>
