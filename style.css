@@ -45,6 +45,10 @@ body {
     font-family: "Roboto Slab", serif;
 }
 
+.h3 {
+    margin-left: 300px;
+}
+
 .registrationDiv {
     display: flex;
     box-sizing: border-box;
@@ -52,6 +56,31 @@ body {
     justify-content: center;
 }
 
-.formRegistration {
+.divForRadio {
 
+}
+
+.formRegistration {
+    padding-right: 50px;
+
+}
+
+.labelLogin {
+    display: block;
+}
+
+.labelPassword {
+    display: block;
+}
+
+.labelName {
+    display: block;
+}
+
+.divForSelect {
+    width: 400px;
+}
+
+.labelCity {
+    display: block;
 }

@@ -13,36 +13,61 @@
          <span class="spanForP">Д</span>орогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество 😉</p>
     </div>
    <form id="formSanta">
+    <h3 class="h3" id="h3">Регистрационные данные:</h3>
     <div class="registrationDiv" id="registrationDiv">
         <div class="formRegistration" id="formRegistration">
             <div>
-                <label for="">
-                    Логин<br>
-                    <input type="text">
-                </label>
+                <label class="labelLogin">Логин</label>
+                <input required type="text" placeholder="Login">
             </div>
             <div>
-                <label for="">
-                    Пароль<br>
-                    <input type="text">
-                </label>
+                <label class="labelPassword">Пароль</label>
+                <input required type="password" placeholder="Password">
             </div>
             <div>
-                <label for="">
-                    Имя<br>
-                    <input type="text">
-                </label>
+                <label class="labelName">Имя</label>
+                <input required type="text" placeholder="Name">
             </div>
         </div>
-        <div>
+        <div class="divForRadio">
             Укажите свой пол:
             <div>
-                <input id="woman" type="radio" name="woman" value="девочка">
+                <input id="woman" type="radio" name="gender" value="девочка">
                 <label for="woman">девочка</label>
             </div>
             <div>
-                <input id="man" type="radio" name="man" value="мальчик">
+                <input id="man" type="radio" name="gender" value="мальчик">
                 <label for="man">мальчик</label>
+            </div>
+            <div>
+                <input type="date" id="birth-date" name="birthDate">
+                <label for="birth-date">Дата рождения</label>
+            </div>
+            <div class="divForSelect">
+                <label class="labelCity" for="selectCities">Твой город</label>
+                <select name="cities" form="formSanta" id="selectCities">
+                    <option value="Moscow">Москва</option>
+                    <option value="Saint-Petersburg">Санкт-Петербург</option>
+                    <option value="Novosibirsk">Новосибирск</option>
+                    <option value="Ekaterinburg">Екатеринбург</option>
+                    <option value="Kazan">Казань</option>
+                    <option value="Nizhniy Novgorod">Нижний Новгород</option>
+                    <option value="Chelyabinsk">Челябинск</option>
+                    <option value="Samara ">Самара</option>
+                    <option value="Omsk">Омск</option>
+                    <option value="Rostov-on-Don">Ростов-на-Дону</option>
+                    <option value="Ufa">Уфа</option>
+                    <option value="Krasnoyarsk">Красноярск</option>
+                    <option value="Voronezh">Воронеж</option>
+                    <option value="Perm">Пермь</option>
+                    <option value="Volgograd">Волгоград</option>
+                    <option value="Krasnodar">Краснодар</option>
+                    <option value="Saratov">Саратов</option>
+                    <option value="Tyumen">Тюмень</option>
+                    <option value="Togliatti">Тольятти</option>
+                    <option value="Izhevsk">Ижевск</option>
+                    <option value="Other">Другое</option>
+                </select>
             </div>
         </div>
     </div>
