@@ -10,9 +10,9 @@
     <h1 class="h1" id="h1">Письмо Санте</h1> 
     <div class="divForP">
         <p class="p" id="p">
-         <span class="spanForP">Д</span>орогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество 😉</p>
+         <span class="spanForP">Д</span>орогой друг, не стесняйся и расскажи Санте о том, кто ты, и о том, что ты хочешь получить на Рождество 😉</p>
     </div>
-   <form id="formSanta">
+   <form id="formSanta" action="greetings.html">
     <h3 class="h3" id="h3">Регистрационные данные:</h3>
     <div class="registrationDiv" id="registrationDiv">
         <div class="formRegistration" id="formRegistration">
@@ -70,6 +70,45 @@
                 </select>
             </div>
         </div>
+    </div>
+    <h3 class="h3Present" id="h3Present">А теперь подарок:</h3>
+    <div class="divForGoodMan">
+        <div class="divColor">
+            <label for="favorite-color" id="labelColor"> Выбери свой любимый цвет</label>
+            <input type="color" id="favorite-color" name="color"  value="#0000FF">
+        </div>
+        <div class="divGoodMan">
+            <label for="rangeGoodMan">Насколько процентов от 0 до 100 <br> ты был хорошим ребенком? 😉</label>
+            <input type="range" min="0" max="100" id="rangeGoodMan" name="rangeGoodMan" class="range" value="#006400">
+        </div>
+        <p class="pPresent">А теперь посмотри, что тебя ждет в Новом году 😁</p>
+        <p class="pPlayingCard">Выбери одну из карт:</p>
+        <div class="playingCard">
+            <a href="https://vgif.ru/gifs/157/vgif-ru-28975.gif">
+                <img src="game.png" alt="image">
+            </a>
+            <a href="https://vgif.ru/gifs/166/vgif-ru-40409.gif">
+                <img src="game.png" alt="image">
+            </a>
+            <a href="https://vgif.ru/gifs/166/vgif-ru-40314.gif">
+                <img src="game.png" alt="image">
+            </a>
+            <a href="https://vgif.ru/gifs/166/vgif-ru-40047.gif">
+                <img src="game.png" alt="image">
+            </a>
+            <a href="https://vgif.ru/gifs/166/vgif-ru-38017.gif">
+                <img src="game.png" alt="image">
+            </a>
+            <a href="https://vgif.ru/gifs/161/vgif-ru-34029.gif">
+                <img src="game.png" alt="image">
+            </a>
+        </div>
+    </div>
+    <div class="divForGreetings">
+        <p class="pRegistration">Для окончания регистрации и отправки письма Санте нажми на кнопку</p>
+        <a target="_blank" href="greetings.html">
+        </a>
+        <button class="submit">Отправить письмо Санте</button>
     </div>
    </form>
 </body>

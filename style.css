@@ -14,6 +14,10 @@ body {
     }
 }
 
+h3 {
+    font-style: italic;
+}
+
 .h1 {
     text-align: center;
     color: darkred;
@@ -47,6 +51,8 @@ body {
 
 .h3 {
     margin-left: 300px;
+    text-decoration: underline;
+    color: darkred;
 }
 
 .registrationDiv {
@@ -79,4 +85,88 @@ body {
 
 .labelCity {
     display: block;
+}
+
+.h3Present {
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 50px;
+    margin-top: 50px;
+    color: darkred;
+}
+
+.divForGoodMan p {
+    margin-left: 400px;
+    font-weight: bold;
+}
+
+.divColor {
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.labelColor {
+    font-size: xx-large;
+}
+
+.divGoodMan {
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.range {
+    padding: 0;
+}
+
+.pPresent {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.pPlayingCard {
+    margin: 0;
+}
+
+.playingCard {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.playingCard a {
+    text-decoration: none;
+    display: inline-block;
+    width: 7%;
+    height: 7%;
+    color: inherit;
+}
+
+.playingCard img {
+    width: 100%;
+    height: auto;
+}
+
+.divForGreetings {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.pRegistration {
+    text-align: center;
+    color: darkred;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button {
+    text-align: center;
 }
